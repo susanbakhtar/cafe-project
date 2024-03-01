@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- goole-font -->
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,90
+      0;1,100;1,300;1,400;1,700;1,900&family=
+      Robot
+      o:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    /> -->
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 3D library - vanilla-tilt -->
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <section id="banner">
+        <!-- for fix bug (show scrool for hero section) use header in the banner=100dvh -->
+        <header>
+          <a href="/" class="brand"> SILVER SPOON </a>
+        </header>
+
+        <div class="banner__bg-container">
+          <img
+            class="banner__bg-image"
+            src="./img/cafe-8.jpeg"
+            alt="cat with hamburger"
+          />
+        </div>
+
+        <div class="banner__content">
+          <h1 class="banner__content--h1">
+            <figure>
+              <img src="./img/coffee-3d-4.png" alt="" />
+            </figure>
+            Best <br />
+            Coffee <br />
+            in the word
+          </h1>
+          <h2 class="banner__content--h2">Coffee - ?</h2>
+
+          <a class="btn" href="/">- Book now -</a>
+        </div>
+      </section>
+
+      <!-- about-section -->
+      <section id="about">
+        <h2 class="section-heading">
+          <span class="section-heading__front"> Café Schönborn! </span>
+        </h2>
+
+        <div class="about__contenr-left">
+          <div class="about__text-container">
+            <h3>
+              AKTUELLES <br />
+              Thekenkraft <br />
+              Servicekraft
+            </h3>
+          </div>
+          <figure class="about__img-coffee-1-container">
+            <img
+              class="about__img-coffee-1"
+              src="./img/about-img4-risised.jpeg"
+              alt=""
+            />
+          </figure>
+
+          <figure class="about__img-coffee-2-container">
+            <img
+              class="about__img-coffee-2"
+              src="./img/about-img2.png"
+              alt=""
+            />
+          </figure>
+        </div>
+
+        <div class="about__contenr-right">
+          <span>Im Herzen</span> der Stadt gelegen erstreckt sich unser Café auf
+          zwei Etagen mit ca. 120 Sitzplätzen. Zur Sommersaison stehen weitere
+          150 Sitzplätze im Außenbereich zur V. Unsere Inneneinrichtung ist
+          geschmackvoll und zeitlos elegant eingerichtet. Ob Schüler, Student,
+          Familie, Tourist oder einfach Allein, bei uns fühlt sich jeder wohl.
+          Wer der Meinung ist, dass guter Service gepaart mit Schnelligkeit
+          nicht in Einklang gebracht werden kann, derjenige sollte sich von
+          unserem Schönbornteam überzeugen lassen. Kommen Sie vorbei und
+          genießen Ihre Zeit bei uns am Oberen Markplatz 30 in Würzburg. Das
+          gesamte Team freut sich auf Sie.
+        </div>
+      </section>
+
+      <!-- <div class="about__figures">
+        <div class="about__figure">
+          <div class="about__figure-number">15</div>
+          <div class="about__figure-txt">years of exprence</div>
+        </div>
+
+        <div class="about__figure">
+          <div class="about__figure-number">10.000+</div>
+          <div class="about__figure-txt">custpmer served</div>
+        </div>
+
+        <div class="about__figure">
+          <div class="about__figure-number">8</div>
+          <div class="about__figure-txt">menu items</div>
+        </div>
+      </div> -->
+
+      <!-- menu -->
+      <div class="menu-container">
+        <section id="menu">
+          <h2 class="menu-heading">
+            <span> our menu </span>
+          </h2>
+
+          <figure class="menu__cup-coffee-container">
+            <img src="./img/cup-coffee3-removebg-preview.png" alt="" />
+          </figure>
+
+          <!-- coffee-1 -->
+          <section class="menu-items-container menu-items-container--1">
+            <figure>
+              <img src="./img/coffee-2.png" alt="coffee 1" />
+            </figure>
+
+            <div class="menu-txt-container">
+              <div class="menu-txt-container-top">
+                <h2>Ice Coffee</h2>
+                <div class="line-txt"></div>
+                <span>$2.20</span>
+              </div>
+
+              <p>Cold brewed espresso</p>
+            </div>
+          </section>
+
+          <!-- coffee-2 -->
+          <section class="menu-items-container menu-items-container--3">
+            <figure>
+              <img src="./img/coffee-2.png" alt="coffee 1" />
+            </figure>
+
+            <div class="menu-txt-container">
+              <div class="menu-txt-container-top">
+                <h2>Cafe Latte</h2>
+                <div class="line-txt"></div>
+                <span>$4.50</span>
+              </div>
+
+              <p>Fresh brewed coffee</p>
+            </div>
+          </section>
+
+          <!-- coffee-3 -->
+          <section class="menu-items-container">
+            <figure>
+              <img src="./img/coffee-3.png" alt="coffee 1" />
+            </figure>
+
+            <div class="menu-txt-container">
+              <div class="menu-txt-container-top">
+                <h2>Mocha</h2>
+                <div class="line-txt"></div>
+                <span>$3.80</span>
+              </div>
+
+              <p>Espresso, mocha sauce, milk</p>
+            </div>
+          </section>
+
+          <!-- coffee-4-->
+          <section class="menu-items-container menu-items-container--5">
+            <figure>
+              <img src="./img/coffee-4.png" alt="coffee 1" />
+            </figure>
+
+            <div class="menu-txt-container">
+              <div class="menu-txt-container-top">
+                <h2>Espresso</h2>
+                <div class="line-txt"></div>
+                <span>$2.10</span>
+              </div>
+
+              <p>Rich espresso with milk</p>
+            </div>
+          </section>
+
+          <!-- coffee-5-->
+          <section class="menu-items-container menu-items-container--2">
+            <figure>
+              <img src="./img/coffee-4.png" alt="coffee 1" />
+            </figure>
+
+            <div class="menu-txt-container">
+              <div class="menu-txt-container-top">
+                <h2>Cappucino</h2>
+                <div class="line-txt"></div>
+                <span>$2.10</span>
+              </div>
+
+              <p>Espresso and milk</p>
+            </div>
+          </section>
+
+          <!-- coffee-6 -->
+          <section class="menu-items-container menu-items-container--4">
+            <figure>
+              <img src="./img/coffee-2.png" alt="coffee 1" />
+            </figure>
+
+            <div class="menu-txt-container">
+              <div class="menu-txt-container-top">
+                <h2>Ice Coffee</h2>
+                <div class="line-txt"></div>
+                <span>$2.20</span>
+              </div>
+
+              <p>Cold brewed espresso</p>
+            </div>
+          </section>
+        </section>
+      </div>
+
+      <!-- empty-section -->
+      <div class="empty-section"></div>
+
+      <footer>
+        <div class="footer-txt-container">
+          <p>
+            Start your day with a cup of happiness and nurture the humanized.
+          </p>
+
+          <div class="footer-txt-bottom">
+            <h5>Working Hours</h5>
+            <p>Monday-Friday: 08:00 - 22:00</p>
+            <p>Saturday-Sunday: 07:00 - 21:00</p>
+          </div>
+        </div>
+
+        <figure class="footer-img__container">
+          <img src="./img/cafe-7.jpeg" alt="" />
+        </figure>
+      </footer>
+    </main>
+  </body>
+</html>
